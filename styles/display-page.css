@@ -1,5 +1,3 @@
-
-
 main {
   font-size: 0;
 }
@@ -12,27 +10,23 @@ main {
   height: 500px;
 }
 
-.box {
+.top div,
+.bottom div {
   border: 1px solid black;
-  display: block;
+  display: inline-block;
 }
 
-.box-half {
+.top div {
   width: 50%;
   height: 200px;
 }
 
-.box-third {
+.bottom div {
   width: 33.3%;
   height: 300px;
 }
 
-.black {
-  background-color: black;
-  
-}
 .green {
-  
   background-color: green;
 }
 
@@ -44,10 +38,10 @@ main {
   background-color: grey;
 }
 
-.orange {
-  background-color: orange;
+.black {
+  background-color: black;
 }
 
-.centered {
-  text-align: center;
+.orange {
+  background-color: orange;
 }
